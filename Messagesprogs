@@ -159,26 +159,9 @@ public class Main
 	}
 }
 
-#without using 3rd variable
-import java.util.*;  
-import java.lang.Math;
-public class Main
-{
-	public static void main(String[] args) {
-	    Scanner sc=new Scanner(System.in);
-		int a,b,t;
-		a=sc.nextInt();
-		b=sc.nextInt();
-		System.out.println("Before Swapping a and b :"+a+" "+b);
-		a = a + b; 
-                b = a - b;
-                a = a - b;
-		System.out.println("After Swapping a and b :"+a+" "+b);
-	}
-}
 
 11. temperature
-class eleven 
+class temperature
 {  
    public static void main (String args[])  
     { float Fahrenheit, Celsius;  
@@ -189,7 +172,7 @@ class eleven
 }
  
 12. grades
-class twelve
+class gradea
 {
 public static void main(String args[])
 {
@@ -202,8 +185,8 @@ System.out.println("Grade A girls " +gag);
 }
 }
 
-13. sum-percent
-class thirteen
+13. sum-1st,last didgit
+class sum
 {
 public static void main(String args[])
 {
@@ -223,7 +206,7 @@ System.out.println(sum);
 }
 
 14. sum1
-class fourteen
+class addtwodigits
 {
 public static void main(String args[])
 {
@@ -240,8 +223,8 @@ System.out.println(sum);
 }
 }
 
-15. num1
-class fifteen
+15. sum of digits of number
+class sumofdigits
 {
 public static void main(String args[])
 {
@@ -257,8 +240,8 @@ System.out.println(sum);
 }
 }
 
-16. number2
-class sixteen
+16. reverse
+class reverse
 {
 public static void main(String args[])
 {
